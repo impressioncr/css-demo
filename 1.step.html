@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style type="text/css" media="screen">
+    .step-container>.arrow-right, .step-leader>.arrow-right{
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        float: left;
+    }
+    .step-container>.arrow-right {
+        border-left: 30px solid #808080;
+    }
+    .step-container>.arrow-body,.step-leader>.arrow-body {
+        width:138px;
+        height:40px;
+        float: left;
+        z-index:1;
+        text-align:center;
+        line-height:40px;
+        position:relative;
+    }
+    .step-container>.arrow-body {
+        background: #808080;
+    }
+
+    .step-container>.arrow-body::before {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-left: 20px solid #fff;
+        float: left;
+        position:absolute;
+        left:0px;
+        z-index:100;
+        content:'';
+    }
+    .step-leader>.arrow-body{
+        background: #2772aa;
+    }
+    .step-leader>.arrow-right {
+        border-left: 20px solid #2772aa;
+    }
+    .step-done {
+        background:#ff8800;
+    }
+    </style>
+</head>
+<body>
+<div class="step">
+            <div class="step-leader">
+                <div class="arrow-body">开头</div>
+                <div class="arrow-right"></div>
+            </div>
+            <div class="step-container">
+                <div class="arrow-left"></div>
+                <div class="arrow-body">第一步
+                <div class="arrow-right"></div>
+            </div>
+            <div class="step-container">
+                <div class="arrow-left"></div>
+                <div class="arrow-body">第二步
+                <div class="arrow-right"></div>
+            </div>
+            <div class="step-container">
+                <div class="arrow-left"></div>
+                <div class="arrow-body">第三步
+                <div class="arrow-right"></div>
+            </div>
+            <div class="step-container">
+                <div class="arrow-left"></div>
+                <div class="arrow-body">第四步
+                <div class="arrow-right"></div>
+            </div>
+            <div class="step-container">
+                <div class="arrow-left"></div>
+                <div class="arrow-body">第五步
+                <div class="arrow-right"></div>
+            </div>
+            <div class="step-container">
+                <div class="arrow-left"></div>
+                <div class="arrow-body">第六步
+                <div class="arrow-right"></div>
+            </div>
+        </div>
+</body>
+</html>
