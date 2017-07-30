@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style type="text/css" media="screen">
+        #step .step-container {
+            width: 180px;
+            height:90px;
+/*             border:1px solid red; */
+            float:left;
+        }
+        #step .title {
+            width: 110px;
+            height:40px;
+            margin:0 auto;
+            border:1px solid #999;
+            margin-top:10px;
+            position:relative;
+            background:#b3b3b3;
+            border-radius:5px;
+            text-align:center;
+            line-height:15px;
+        }
+        #step .title .text ,.text-1{
+            color:#fff;
+            font-size:12px;
+            padding-top:5px;
+        }
+        #step span {
+            display: block;
+            width: 110px;
+        }
+        #step .text-1 {
+            padding-top:12px;
+        }
+        #step .line {
+            width: 182px;
+            height:5px;
+            background:#b3b3b3;
+            border-radius:3px;
+            margin-top:20px;
+            position:relative;
+        }
+        #step .arrow {
+            width: 0;
+            height:0;
+            border-left:8px solid transparent;
+            border-right:8px solid transparent;
+            position:absolute;
+            top:40px;
+            left:45px;
+            border-top:8px solid #b3b3b3;
+        }
+        #step .circle {
+            width: 10px;
+            height:10px;
+            border-radius:50%;
+            background:#fff;
+            position:absolute;
+            border:3px solid #b3b3b3;
+            top:-5px;
+            left:80px;
+        }
+        .greened {
+            background:#54b502!important;
+        }
+        .green-arrow {
+            border-top:8px solid #54b502!important;
+        }
+        .green-circle {
+            border:3px solid #54b502!important;
+        }
+        .blued {
+            background:#3397e1!important;
+        }
+        .blue-arrow {
+            border-top:8px solid #3397e1!important;
+        }
+        .blue-circle {
+            border:3px solid #3397e1!important;
+        }
+        .blue-line {
+            background:#91c1ec!important;
+        }
+    </style>
+</head>
+<body>
+    <div id="step">
+        <div class="step-container">
+            <div class="title greened">
+                <div class="text-1">
+                    <span>布局流程</span>
+                </div>
+                <div class="arrow green-arrow"></div>
+            </div>
+            <div class="line blue-line">
+                <div class="circle green-circle"></div>
+            </div>
+        </div>
+        <div class="step-container">
+            <div class="title blued">
+                <div class="text">
+                    <span>第一步</span><span>CO机房资源</span>
+                </div>
+                <div class="arrow blue-arrow"></div>
+            </div>
+            <div class="line">
+                <div class="circle blue-circle"></div>
+            </div>
+        </div>
+        <div class="step-container">
+            <div class="title">
+                <div class="text">
+                    <span>第三步</span><span>DC资源匡算</span>
+                </div>
+                <div class="arrow"></div>
+            </div>
+            <div class="line">
+                <div class="circle blue-circle"></div>
+            </div>
+        </div>
+        <div class="step-container">
+            <div class="title">
+                <div class="text">
+                    <span>第三步</span>
+                    <span>DC资源匡算</span>
+                </div>
+                <div class="arrow"></div>
+            </div>
+            <div class="line">
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="step-container">
+            <div class="title">
+                <div class="text">
+                    <span>第四步</span>
+                    <span>DC布局选址</span>
+                </div>
+                <div class="arrow"></div>
+            </div>
+            <div class="line">
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="step-container">
+            <div class="title">
+                <div class="text">
+                    <span>第五步</span>
+                    <span>DC资源匹配</span>
+                </div>
+                <div class="arrow"></div>
+            </div>
+            <div class="line">
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="step-container">
+            <div class="title">
+                <div class="text">
+                    <span>第六步</span>
+                    <span>DC改造建设</span>
+                </div>
+                <div class="arrow"></div>
+            </div>
+            <div class="line">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
